@@ -23,3 +23,8 @@ h2 {
     border-radius: 8px;
     border: 1px solid black;
 }
+
+.col-md-6 img {
+    border-radius: 25%;
+    border: 1px solid black;
+}
