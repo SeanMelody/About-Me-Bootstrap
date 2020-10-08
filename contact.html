@@ -14,9 +14,9 @@
 <link rel="icon" type="image/png" href="./assets/images/Favicon.png" />
 <title>Sean Melody</title>
 </head>
-<headder>
+<header>
     <!-- Start of Navigation Bar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+<nav class="navbar navbar-expand-lg navbar-dark">
     <!-- Title links back to index.html as well -->
     <a class="navbar-brand" href="./index.html"><h1>Sean Melody</h1></a>
     <!-- Button for when page is thinner -->
@@ -26,7 +26,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
     <!-- Website Navigation List Links -->
-      <ul class="navbar-nav">
+      <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
           <a class="nav-link" href="./index.html" target="_blank">About Me </a>
         </li>
@@ -40,7 +40,7 @@
     </div>
   </nav>
   <!-- End of Navigation Bar -->
-</headder>
+</header>
 
 <body>
     <main class="container">
@@ -54,31 +54,31 @@
             <!-- Start of Photos for Contact Section -->
             <!-- Instagram Photo -->
             <div class="col-md-4">
-                <img src="./assets/images/Instagram-Profile.jpg" alt="Instagram Profile Photo"  height="200px" width="200px">
+                <img src="./assets/images/Instagram-Profile.jpg" alt="Instagram Profile Photo"  class="img-thumbnail">
                     <!-- Sub Row for link to Instagram  -->
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-6 social-media-link">
                             <a href="https://www.instagram.com/seandze/" alt="Instagram" target="_blank"> Instagram</a>
                         </div>
                     </div>
             </div>
             <!-- Facebook Photo -->
             <div class="col-md-4">
-                <img src="./assets/images/Facebook-Profile.jpg" alt="Facebook Profile Photo"  height="200px" width="200px">
+                <img src="./assets/images/Facebook-Profile.jpg" alt="Facebook Profile Photo"  class="img-thumbnail">
                     <!-- Sub Row for link to Facebook  -->
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-6 social-media-link">
                            <a href="https://www.facebook.com/sean.dz.5/" alt="Facebook" target="_blank"> Facebook</a>
                         </div>
                     </div>
             </div>
             <!-- Twitter Photo -->
             <div class="col-md-4">
-                <img src="./assets/images/Twitter-Profile.jpg" alt="Twitter Profile Photo"  height="200px" width="200px">
-                    <div class="row">
+                <img src="./assets/images/Twitter-Profile.jpg" alt="Twitter Profile Photo"  class="img-thumbnail">
                     <!-- Sub Row for link to Twitter -->
-                        <div class="col-md-6">
-                            <a href="https://twitter.com/drdze" alt="Twitter" target="_blank"> Twitter</a>
+                    <div class="row">
+                        <div class="col-md-6 social-media-link">
+                            <a href="https://twitter.com/drdze " alt="Twitter" target="_blank"> Twitter</a>
                         </div>
                     </div>
             </div>
@@ -92,24 +92,23 @@
                 <input type="name" class="form-control" id="exampleInputName" aria-describedby="name">
             </div>
             <div class="form-group">
-                <label for="exampleInputEmail1">Favorite Color:</label>
+                <label for="input-group-text">Favorite Color:</label>
                 <input type="email" class="form-control">
             </div>
             <div class="form-group">
-                <label for="exampleInputEmail1">Message:</label>
+                <label for="input-group-text">Message:</label>
                 <input class="form-control form-control-lg" type="text">
             </div>
-            <button type="submit" class="btn btn-danger">Submit</button>
+            <button type="submit" class="btn btn-dark">Submit</button>
         </form>
         <br>
     </main>
     <footer class="footer">
-        <div class="container">
-            <span><h6>&#169 and &#9829 Sean Melody 2020</h6></span>
-        </div>
-
+        <h6>&#169 and &#9829 Sean Melody 2020</h6>
     </footer>
-
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 
 </html>
