@@ -1,8 +1,10 @@
+/* Personalized CSS used in addition to Bootstrap Framework */
 body{
     background-color: lightgray;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/* First section in each page */
 main {
     margin-top: 40px;
     margin-bottom: 40px;
@@ -10,11 +12,13 @@ main {
     padding-bottom: 40px;
 }
 
+/* Name in Navbar */
 h1 {
     font-size: 32px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Title of each page */
 h2 {
     font-size: 32px;
     font-weight: bold;
@@ -27,18 +31,21 @@ a {
     text-decoration: none;
 }
 
+/* Index page images */
 .about-me-photo img {
     border-radius: 8px;
     border: 1px solid black;
 }
 
-/* .col-md-4 img {
-    border-radius: 8px;
-    border: 1px solid black;
-} */
-
-.col-md-6 img {
+/* Portfolio page Images */
+.portfolio-img img {
     border-radius: 25%;
+    border: 1px solid black;
+}
+
+/* Contact Page Images */
+.social-media-img img {
+    border-radius: 8px;
     border: 1px solid black;
 }
 
