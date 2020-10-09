@@ -55,6 +55,11 @@ a {
     font-size: 24px;
 }
 
+.message {
+    height: 80px;
+    padding-bottom: 50px;
+}
+
 footer {
     bottom: 0;
     width: 100%;
