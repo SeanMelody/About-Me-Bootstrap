@@ -1,3 +1,7 @@
+<img src="https://img.shields.io/badge/LICENSE-mit-green"/>
+
+https://seanmelody.github.io/About-Me-Bootstrap/
+
 # About-Me-Bootstrap
 A three page About Me site made with Bootstrap
 
